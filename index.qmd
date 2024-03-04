@@ -1,0 +1,21 @@
+---
+about:
+  template: jolla
+  id: about-block
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+---
+::: {#about-block}
+:::
+
+
+::: {.justify}
+:::{style="color: black; font-size: 20px;"}
+ bllab, blab, blab
+
+ these are the icons: {{< iconify academicons google-scholar >}} {{< iconify simple-icons orcid>}}
+:::
+:::

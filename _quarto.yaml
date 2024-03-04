@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "jay's website"
+  navbar:
+    background: primary
+    search: true
+    tools:
+      - icon: twitter
+        href: https://twitter.com/brophyj
+      - icon: github
+        href: https://github.com/brophyj
+      - icon: linkedin
+        href: https://www.linkedin.com/in/brophyj/
+      - text: "{{< iconify academicons google-scholar >}}"
+        href: https://scholar.google.ca/citations?user=IXoZb4wAAAAJ&hl=en
+      - text: "{{< iconify simple-icons orcid>}}"
+        href: https://orcid.org/my-orcid?orcid=0000-0001-8049-6875
+      - icon: envelope
+        aria-label: email
+        href: "foo@bar.com"
+format:
+  html:
+    theme: pulse
+    css: styles.css
+    toc: true
+editor: visual
